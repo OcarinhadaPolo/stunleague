@@ -1,0 +1,35 @@
+.bg-header{
+    background-color: #121217;
+    opacity: 0.5;
+
+}
+
+.button-red{
+    background-color: #FF0909;
+}
+
+.background-section {
+    background:
+        /* Gradiente linear */
+        linear-gradient(180deg, rgba(182, 0, 0, 0.01) 0%, rgba(182, 0, 0, 0.07) 100%),
+        /* Gradiente radial 1 */
+        radial-gradient(28.3% 31.34% at 84.79% 56.01%, rgba(255, 9, 9, 0.15) 0%, rgba(255, 9, 9, 0) 100%),
+        /* Gradiente radial 2 */
+        radial-gradient(40.73% 50.59% at -5.8% 50%, rgba(102, 0, 0, 0.2) 0%, rgba(102, 0, 0, 0) 100%),
+        /* Padrão */
+        url('../images/pattern.png'),
+        /* Cor de fundo */
+        #141414;
+}
+
+.border-white{
+    border-bottom: 1px solid #fff;
+}
+
+.border-white-button{
+    border: 1px solid #fff;
+}
+
+
+
+/**/
